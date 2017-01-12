@@ -31,6 +31,8 @@ Day 5 (12/21/2016)
     -Still need to add a talk button comand
     -still needs to make it so when you face an NPC and press the talk button you talk to them
 
+Day 6 (1/6/2017)
+    -revamped the event_check to be a character_event array. And had it be created in the con_controler.
 
 
 
