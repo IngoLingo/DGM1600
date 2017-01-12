@@ -10,6 +10,8 @@ Day 2 (12/9/16)
 
 Day 3 (12/10/16)
     -Started creating the logic that event tiles disapear once the event passes.
-
+    -May need to create separate objects for each event. Maybe a total of 5 to re-use for each (Game Maker) room.
+    -Decided on haveing each event tile object disapear if it's number is not zero and the event happens.
+    
 
 */
