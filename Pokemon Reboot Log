@@ -16,5 +16,8 @@ Day 3 (12/10/16)
 Day 4 (12/13/2016)
     -Created scr_eventTracker to help track events and make sure that characters don't disapear if you move from room to room.
     -Moved the Origin point for all overworld characters to be 16, 24. Also modifyed the spr_player_down sprites mask to cover the bottom half of the sprite.
-    
+        This makes the overworld characters look like they are moving with depth in front of walls.
+     -Assined all the overworld characters mask to be spr_player_down. So I don't have to manualy assine the SAME mask value to each and every sprite, just the objects.
+    -Created the (walking) sprites for: Player, Sibling, Mom, Rival, and Professor characters.
+
 */
