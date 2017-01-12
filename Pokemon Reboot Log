@@ -19,5 +19,8 @@ Day 4 (12/13/2016)
         This makes the overworld characters look like they are moving with depth in front of walls.
      -Assined all the overworld characters mask to be spr_player_down. So I don't have to manualy assine the SAME mask value to each and every sprite, just the objects.
     -Created the (walking) sprites for: Player, Sibling, Mom, Rival, and Professor characters.
+    -Organized some folders
+    -Fixt bug when character only used 2 frames of animation.
+     Characters were forced to reset animation every time they hit there destination_x,Y. Made it so that only when directional buttons are not being pressed, animation stops and resets.
 
 */
