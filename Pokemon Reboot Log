@@ -22,5 +22,6 @@ Day 4 (12/13/2016)
     -Organized some folders
     -Fixt bug when character only used 2 frames of animation.
      Characters were forced to reset animation every time they hit there destination_x,Y. Made it so that only when directional buttons are not being pressed, animation stops and resets.
+    -Made it so NPC normal speed is half of player's normal speed durring their normal state
 
 */
