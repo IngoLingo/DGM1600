@@ -29,6 +29,7 @@ Day 5 (12/21/2016)
     -made it so that there was only one object for the textbox and I would just asigne diffrent scripts to it for diffrent text.
     -Added the text for the first 2 events.
     -Still need to add a talk button comand
+    -still needs to make it so when you face an NPC and press the talk button you talk to them
 
 
 */
