@@ -26,6 +26,7 @@ Day 4 (12/13/2016)
 
 Day 5 (12/21/2016)
     -Imported the CTB textbox engine and modified the size of the text box to fit within the game's size in the obj_textbox step event.
+    -made it so that there was only one object for the textbox and I would just asigne diffrent scripts to it for diffrent text.
 
 
 */
