@@ -15,5 +15,6 @@ Day 3 (12/10/16)
     
 Day 4 (12/13/2016)
     -Created scr_eventTracker to help track events and make sure that characters don't disapear if you move from room to room.
+    -Moved the Origin point for all overworld characters to be 16, 24. Also modifyed the spr_player_down sprites mask to cover the bottom half of the sprite.
     
 */
