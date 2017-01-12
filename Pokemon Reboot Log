@@ -24,4 +24,8 @@ Day 4 (12/13/2016)
      Characters were forced to reset animation every time they hit there destination_x,Y. Made it so that only when directional buttons are not being pressed, animation stops and resets.
     -Made it so NPC normal speed is half of player's normal speed durring their normal state
 
+Day 5 (12/21/2016)
+    -Imported the CTB textbox engine and modified the size of the text box to fit within the game's size in the obj_textbox step event.
+
+
 */
