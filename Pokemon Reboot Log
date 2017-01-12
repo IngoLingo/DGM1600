@@ -13,5 +13,7 @@ Day 3 (12/10/16)
     -May need to create separate objects for each event. Maybe a total of 5 to re-use for each (Game Maker) room.
     -Decided on haveing each event tile object disapear if it's number is not zero and the event happens.
     
-
+Day 4 (12/13/2016)
+    -Created scr_eventTracker to help track events and make sure that characters don't disapear if you move from room to room.
+    
 */
