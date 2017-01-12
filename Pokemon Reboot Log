@@ -8,7 +8,8 @@ Day 2 (12/9/16)
     Created NPC's and movement. Started on the cutscene scripting, using timelines.
     Fixed movement bug where you collide with NPC on a map possition that is not divisable by 32. It made it so that the player or NPC no longer moved on the 32 grid.
 
-
+Day 3 (12/10/16)
+    -Started creating the logic that event tiles disapear once the event passes.
 
 
 */
