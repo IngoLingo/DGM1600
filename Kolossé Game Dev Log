@@ -43,12 +43,15 @@ Day 7 (1/12/2017)
     
 Day 8 (1/13/2017)
     -fixed the only talking to the NPC from the left or right. Can now talk in all directions
+    -NPCs that move in the overworld now stop when you are talking to them
+    -Now to fine tune the battle system... But not today
 
 TO LOOK INTO: 
     Backgrounds. 
     Doors that don't look weird when you wallk out of them.
     Battle system
+    Art/Astetics
     
 BUG LIST
-     -npc's still move around amlessly if you talk to them
+    - no bugs now
 */
