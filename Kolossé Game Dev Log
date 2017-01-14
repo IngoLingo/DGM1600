@@ -41,8 +41,11 @@ Day 7 (1/12/2017)
 
 
 TO LOOK INTO: 
-    Text box engine. Pressing the talk button and reaction of other character
     Backgrounds. 
     Doors that don't look weird when you wallk out of them.
     Battle system
+    
+BUG LIST
+     -talking to npc's from only the left or right
+     -npc's still move around amlessly if you talk to them
 */
