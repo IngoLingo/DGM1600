@@ -40,6 +40,9 @@ Day 7 (1/12/2017)
     - Made it so that you can talk to NPCs but their is a bug that makes it so that you can only talk to the NPC from the left or the right.
     - added the text box engin and modified it so that it would fit in the game's screen ratio
     - quests/events sinc up properly with text and the order events that follow behind no longer disapear
+    
+Day 8 (1/13/2017)
+    -fixed the only talking to the NPC from the left or right. Can now talk in all directions
 
 TO LOOK INTO: 
     Backgrounds. 
@@ -47,6 +50,5 @@ TO LOOK INTO:
     Battle system
     
 BUG LIST
-     -talking to npc's from only the left or right
      -npc's still move around amlessly if you talk to them
 */
