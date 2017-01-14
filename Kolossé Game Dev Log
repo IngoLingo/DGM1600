@@ -39,6 +39,7 @@ Day 6 (1/6/2017)
 Day 7 (1/12/2017)
     - Made it so that you can talk to NPCs but their is a bug that makes it so that you can only talk to the NPC from the left or the right.
     - added the text box engin and modified it so that it would fit in the game's screen ratio
+    - quests/events sinc up properly with text and the order events that follow behind no longer disapear
 
 TO LOOK INTO: 
     Backgrounds. 
