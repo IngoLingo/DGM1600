@@ -1,0 +1,22 @@
+// The two forward slashes makes it so that you can comment on your code without disturbing the commands and functions.
+/* This kind of script makes it so that you can create multiple lines of notations without having to wright "//" for every line.
+But make sure that you end it with a */
+
+/* I do understand conventions and syntax. BUT I am currently at work right now and I work until midnight. I will try and wright out the examples. In this project file. */
+
+using UnityEngine;
+using System.Collections;
+
+public class BasicSyntax : MonoBehaviour
+{
+    void Start ()
+    {
+             // This will create a debug log whenever you press the space bar on the keyboard.
+        if (Input.GetKeyDown(KeyCode.space))
+        {
+            Debug.Log ("You pressed a button");
+        }
+    }
+}
+// Having an indent within blocks of code makes the code more readable. It is also easyer to track what went wrong when you have a 
+//consistent method of writing.
