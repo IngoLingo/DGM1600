@@ -1,0 +1,34 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class rotate : MonoBehaviour {
+    public float speed;
+    public float rotX = 15; //defineing the X rotaition. Can change later.
+    public float rotY = 30; //defineing the Y rotaition. Can change later.
+    public float rotZ = 45; //defineing the Z rotaition. Can change later.
+
+    // Use this for initialization
+    void Start () {
+        speed = Random.Range(0.6f, 111.0f);
+	}
+	
+	// Update is called once per frame
+	void Update () {
+  // This is were the veriables are called and applyed.
+        transform.Rotate(new Vector3(rotX, rotY, rotZ) * Time.deltaTime * speed);
+		
+	}
+}
+
+
+// QUICK Side Examples
+
+  public bool faceHappy = true; // This is stateing that the face is happy by default
+  public bool faceSad = false;
+  public float assignemetGrade;
+  
+  happyEmotion = faceHappy * 1; //This will add one point to the happyEmotion every second the faceHappy is true.
+  sadEmotion = faceSad * 1; //This will add one point to the sadEmotion every second the faceSad is true.
+  
+  if assignemetGrade = 0 {faceHappy = 0; faceSad = 1;} //This expalins if I get a 0 onn the assinment then I will be sad.
