@@ -1,0 +1,54 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class move : MonoBehaviour {
+    public float horizontalSpeed = 5.2f;
+    public float verticalSpeed = 5.2f;
+    public float jumpSpeed = 10f;
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+  
+            //This is if the player pushed the left button, the character moves left, else the character dosn't move.
+        if (Input.GetKey (KeyCode.LeftArrow))
+        {
+            gameObject.transform.Translate(-horizontalSpeed, 0, 0);        }
+        else {gameObject.transform.Translate(0, 0, 0);}
+            
+            //This is if the player pushed the right button, the character moves right, else the character dosn't move.
+        if (Input.GetKey (KeyCode.RightArrow))
+        {
+            gameObject.transform.Translate(+horizontalSpeed, 0, 0);        }
+        else {gameObject.transform.Translate(0, 0, 0);}
+            
+            //This is if the player pushed the up button, the character moves up, else the character dosn't move.
+        if (Input.GetKey (KeyCode.UptArrow))
+        {
+            gameObject.transform.Translate(0, -verticalSpeed, 0);        }
+        else {gameObject.transform.Translate(0, 0, 0);}
+            
+            //This is if the player pushed the down button, the character moves down, else the character dosn't move.
+        if (Input.GetKey (KeyCode.DownArrow))
+        {
+            gameObject.transform.Translate(0, +verticalSpeed, 0);        }
+        else {gameObject.transform.Translate(0, 0, 0);}
+        
+            //This is if the player pushed the jump button, the character jumps, else the character dosn't move.
+        if (Input.GetKey (KeyCode.Space))
+        {
+            gameObject.transform.Translate(0, 0, +jumpSpeed);        }
+        else {gameObject.transform.Translate(0, 0, 0);}
+        
+                    //This is if the player pushed the attack button, the character attacks, else the character is idle.
+        if (Input.GetKey (KeyCode.Space))
+        {
+            //insert code for the attack state       }
+        else {//make the player character stay in the normal state}
+	}
+}
